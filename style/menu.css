@@ -1,0 +1,72 @@
+.header-buttons .button-one a{
+    color: white;
+}
+
+.header-buttons .button-three a{
+    color: gold;
+}
+
+h1{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.menu{
+    margin-top: 5rem;
+}
+
+.menu-cover{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem 2rem;
+}
+
+.menu-cover .menu-image{
+    padding: 1rem;
+    background-color: rgb(75, 1, 1);
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-cover .menu-image img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid yellow;
+}
+
+.menu-cover .menu-price{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.menu-cover .menu-price .main-menu{
+    display: flex;
+    column-gap: 30px;
+}
+
+.menu-cover .menu-price .main-menu ul{
+    list-style: none;
+    display: flex;
+    row-gap: 30px;
+    flex-direction: column;
+}
+
+@media (width < 581px) {
+    .menu-cover{
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 3rem 2rem;
+    }
+
+    .menu{
+        margin-top: 2rem;
+    }
+}

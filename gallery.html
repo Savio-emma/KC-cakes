@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/galllery.css">
+    <script src="script/about.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div><img src="image/logo.jpg" class="logo" alt=""></div>
+
+        <div class="open-menu"><i class="fa-solid fa-bars"></i></div>
+
+        <div class="header-buttons">
+            <div class="button-one buttons stager"><a class="check" href="index.html">HOME</a></div>
+            <div class="button-two buttons stager"><a  href="about.html">ABOUT</a></div>
+            <div class="button-three buttons stager"><a  href="menu.html">MENU</a></div>
+            <div class="button-four buttons stager"><a href="gallery.html">GALLARY</a></div>
+            <div class="button-five buttons stager"><a href="contact.html">CONTACT</a></div>
+            <div class="close-menu"><i class="fa-solid fa-rectangle-xmark"></i></div>
+
+            <span class="ham-icons">
+                <a href="https://www.facebook.com/profile.php?id=100071174964717&mibextid=ZbWKwL "><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/ifech19"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/emmanuel-ifechukwu-14a40125b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/ifechukwu3919?igsh=MTdqb3IyajRiY24zcg=="><i class="fa-brands fa-instagram"></i></a>
+            </span>
+        </div>
+
+    <i id="whatsapp" class="fa-brands fa-whatsapp"></i>
+    </header>
+    
+ <hr>
+
+    <section class="cake-gallery">
+        <h2>Bakers Pics</h2>
+        <div class="full-img full-img-box">
+            <img class="full-img-content" src="https://i.pinimg.com/736x/d1/e8/27/d1e827e2fd3528cbf08858866893470e.jpg" alt="">
+        </div>
+        <span class="span" onclick="closeFullImg()">X</span>
+        <div class="img-gallery">
+            <img src="https://i.pinimg.com/736x/5c/b2/29/5cb229f525979478dea020e7170fc8da.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/fb/88/5b/fb885bafa11393585aff514c5e288176.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/94/0a/01/940a01e47ca677d7f61ad409e0fa2086.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/84/ee/e9/84eee91a9a273bb559e45fbff375a57f.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/ed/c0/b6/edc0b6bf9970119a57678a665a64517a.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/1e/74/51/1e7451eafcd6e948d5780e22ebf6c145.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/2f/be/81/2fbe81974dcb939f40cb587b159383a1.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/0c/9b/8f/0c9b8f4db25c5d3dee7d1bd5f17ea512.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/a9/33/ef/a933ef866237316d3461e1bb45a37d44.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/11/73/86/11738601a046cec0f4e5b62ccef236b5.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/ef/8a/ee/ef8aeef7818b17c9b6f600feed2e758b.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/94/75/ef/9475efe20fadae225129e4be7db94256.jpg" onclick="openFullImg(this.src)">
+        </div>
+    </section>
+
+
+    <hr>
+
+
+    <section class="cake-gallery two">
+        <h2>Our Cakes</h2>
+        <div class="full-img full-img-box" >
+            <img class="full-img-content" src="https://i.pinimg.com/736x/d1/e8/27/d1e827e2fd3528cbf08858866893470e.jpg" alt="">
+        </div>
+        <span class="span" onclick="closeFullImg()">X</span>
+        <div class="img-gallery">
+            <img src="https://i.pinimg.com/736x/d1/e8/27/d1e827e2fd3528cbf08858866893470e.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/32/b8/38/32b838646886c0928630285ebe3861e9.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/c2/6e/d9/c26ed924d62bec4c848f526d9406ded2.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/76/41/a2/7641a220a2973456a0aaabaf4bf74524.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/95/a0/0e/95a00e73f47d9a6e0ca46f8b9bf4c02c.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/52/58/1a/52581a88ceb162bc621e05695d7afd3d.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/a3/6a/ca/a36acaadaef4060804cb18c041be1394.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/8d/18/b0/8d18b008b6b40687f085f20e5e523317.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/1e/27/ea/1e27ea7f4df4e2eb6e212cec32d03a23.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/21/8d/51/218d512d1755b2e2c5ff071be4b163d2.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/a4/d9/e4/a4d9e4f14cc36b865cbb8be5bda8adf9.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/d6/5d/d7/d65dd7640366925d658fb9b92e88d10e.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/cc/98/fe/cc98fe0a963fd5f077f43115a40fa150.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/99/66/b9/9966b928f60ccef5fe98d7e519be2722.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/8e/68/21/8e6821cf3673f00b3a7988b7f4a4dc19.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/96/d7/56/96d7565512e1ee2ad239fd2e5f48edf0.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/25/94/15/259415bb324409dbe0aa0f89cb07439f.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/f4/bc/b8/f4bcb817a736dad61c313682448444b9.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/e9/07/16/e907168367a5ce38b070aef15fd42ea5.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/ee/6c/ef/ee6cef1483e734fd265b9df736716bdd.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/d3/e3/db/d3e3dba3c93213feb4bf704fa6b86c98.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/7a/87/fb/7a87fbbd77beab34c9e6bcb0ac39d73d.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/dc/97/1b/dc971bb091a0ccd051db692f07f27a02.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/c4/1c/3e/c41c3ebefa0db7a927916e0c347f9b68.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/8a/e5/db/8ae5db418b46811c1c1f4be2478411d0.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/51/f7/08/51f7084dc655c73d886e0dd43ae71cab.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/79/e2/2c/79e22ced6571743ea9bbcc8ffe2e0c7b.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/7e/bd/a6/7ebda6f3a88986c74f4e72c2c1e73b75.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/85/1e/6f/851e6f94f5b640344b05f0296e5ddd8e.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/31/24/c2/3124c2e7a3e8911fab43904c96982008.jpg" onclick="openFullImg(this.src)">
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="cake-gallery three">
+        <h2>Other Treats</h2>
+        <div class="full-img full-img-box">
+            <img class="full-img-content" src="https://i.pinimg.com/736x/d1/e8/27/d1e827e2fd3528cbf08858866893470e.jpg" alt="">
+        </div>
+        <span class="span" onclick="closeFullImg()">X</span>
+        <div class="img-gallery">
+            <img src="https://i.pinimg.com/736x/26/87/4a/26874af21e7697fcb87ebdbf84dc782a.jpg" onclick="openFullImg(this.src)">            
+            <img src="https://i.pinimg.com/736x/44/db/75/44db7511bed80912a072ca71392205aa.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/f7/3d/da/f73ddad69eed39061f28b0862da06227.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/54/f0/60/54f060e5c3e71ee02f6fd0ba8fc150d9.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/3c/c6/87/3cc68761d7afae37eef7c3d3b047a473.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/9d/c4/eb/9dc4eb6f21b2efbbb791dfd22e10bde9.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/1b/0a/92/1b0a921bdc6908dd88bff4aebe479d08.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/1d/c9/a5/1dc9a54f007a321052532d16a67b3aa0.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/b3/fc/04/b3fc0401cd816eff7f761c29b1ade76b.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/97/4c/31/974c3110522e7a09aae53a22cd623dee.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/7c/15/d9/7c15d9c09a9ee8f17a44f34cbfd5f852.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/89/27/1c/89271cbf7c01b6ca0d18a92448be751c.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/72/ed/8f/72ed8fd73158958d8bbc4a1c1f3eae9d.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/51/83/c6/5183c6f67270dc976792d31b7b481f23.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/de/38/81/de388114a5e3d2c1b679ed29c42e4cd1.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/f7/96/d3/f796d3041bc626e95e546c9d6ed97271.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/d8/68/b1/d868b1f5c6a518f8b7d994a9aedf9651.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/3a/5f/f3/3a5ff36dca18a4c63839d324067ea889.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/2d/01/f4/2d01f4c589407674af4b85cb9ccccdfa.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/87/4f/a5/874fa56debf5b583124de08216a55e21.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/dc/37/3f/dc373fb452f5a658dfd09e2cb05618d1.jpg" onclick="openFullImg(this.src)">
+            <img src="https://i.pinimg.com/736x/98/bc/32/98bc3263e0af1373d415cba31ccbdfc5.jpg" onclick="openFullImg(this.src)">
+        </div>
+    </section>
+
+
+ <footer>
+
+    <h2>K & C Cakes</h2>
+
+    <div class="brands">
+        <a href="">BRANDS</a>
+        <a href="">MEDIA</a>
+        <a href="">AGENCY</a>
+    </div>
+
+    <hr>
+
+    <div class="links">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="menu.html">MENU</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+
+    <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100071174964717&mibextid=ZbWKwL "><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://x.com/ifech19"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://pin.it/4eYjSPpy6"><i class="fa-brands fa-pinterest-p"></i></a>
+        <a href="https://www.linkedin.com/in/emmanuel-ifechukwu-14a40125b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/ifechukwu3919?igsh=MTdqb3IyajRiY24zcg=="><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/Savio-emma"><i class="fa-brands fa-github"></i></a>
+    </div>
+
+    <div class="copy-right">
+        <div>
+            <a href="">Terms & Conditions</a>
+            <a href="">Private Policy</a>
+        </div>
+        <p> &copy made with love by savioemma. site credit</p>
+    </div>
+
+ </footer>
+
+    <script>
+        var fullImgBox = document.querySelectorAll(".full-img-box");
+        var fullImg = document.querySelectorAll(".full-img-content");
+        var span = document.querySelectorAll(".span");
+
+        function openFullImg(pic){
+            fullImgBox.forEach(box => {
+                box.style.display = 'flex';
+            })
+
+            span.forEach(spa => {
+                spa.style.display = 'block';
+            } )
+            
+            fullImg.forEach(content => {
+            content.src = pic;
+           })
+        }
+
+        function closeFullImg(){
+            fullImgBox.forEach(box => {
+                box.style.display = 'none';
+            })
+
+            span.forEach(spa => {
+                spa.style.display = 'none';
+            } )
+        }
+
+    </script>
+</body>
+</html>
