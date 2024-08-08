@@ -577,8 +577,8 @@ footer .copy-right p {
 /* ------observer------- */
 .observer{
     opacity: 0;
-    transform: translateY(4rem);
-    transition: transform 1s, opacity 3s;
+    transform: translateY(6rem);
+    transition: transform .6s, opacity 3s;
 }
 
 .toggle{
@@ -811,6 +811,13 @@ footer .copy-right p {
 @media (width < 570px) {
     .after-header-image{
         scale: .7;
+    }
+
+}
+
+@media (width < 500px) {
+    .hire .hire-image img{
+        scale: .6;
     }
 }
 /* media query */
