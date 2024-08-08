@@ -819,5 +819,9 @@ footer .copy-right p {
     .hire .hire-image img{
         scale: .6;
     }
+
+    .after-header-image img{
+       scale: .8;
+    }
 }
 /* media query */
