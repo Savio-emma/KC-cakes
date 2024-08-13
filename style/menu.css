@@ -14,14 +14,14 @@ h1{
 .menu-cover{
     display: grid;
     grid-gap: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(5rem, 10rem));
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 9rem));
     justify-content: center;
     padding: 20px;
 }
 
 .menu-cover .menu-card{
     height: 220px;
-    width: 170px;
+    width: 150px;
     background-color: rgb(75, 1, 1);
     color: white;
     text-align: center;
