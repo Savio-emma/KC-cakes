@@ -609,7 +609,7 @@ footer .copy-right p {
         animation: slide-in 1s linear;
     }
 
-    header #whatsapp {
+    header  #whatsapp {
         display: none;
     }
 
@@ -671,7 +671,8 @@ footer .copy-right p {
     }
 
      .open-menu{
-        display: block;  
+        display: block; 
+
     }
 
     .header-buttons .ham-icons i{
@@ -687,7 +688,6 @@ footer .copy-right p {
    .close-menu i:hover{
     color: gold;
    }
-
     }
 
 @media (width < 1123px) {

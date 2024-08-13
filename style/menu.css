@@ -11,62 +11,66 @@ h1{
     text-align: center;
 }
 
-.menu{
-    margin-top: 5rem;
-}
-
 .menu-cover{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 5rem 2rem;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 10rem));
+    justify-content: center;
+    padding: 20px;
 }
 
-.menu-cover .menu-image{
-    padding: 1rem;
+.menu-cover .menu-card{
+    height: 220px;
+    width: 170px;
     background-color: rgb(75, 1, 1);
-    height: 300px;
-    width: 300px;
-    border-radius: 10px;
+    color: white;
+    text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    row-gap: 5px;
+    border-radius: 10px;
 }
 
-.menu-cover .menu-image img{
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
+.menu-cover .menu-card .card-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 5%;
+}
+
+.menu-cover .menu-card .card-img img{
+    width: 100px;
+    height: 100px;
     object-fit: cover;
-    border: 2px solid yellow;
+    border-radius: 5%;
+    border: 2px solid white;
 }
 
-.menu-cover .menu-price{
+.menu-cover .menu-card p {
+    color: gold;
+}
+
+.note{
+    padding: 2rem;
     display: flex;
     flex-direction: column;
-    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
 }
 
-.menu-cover .menu-price .main-menu{
-    display: flex;
-    column-gap: 30px;
+.note a {
+    background-color: rgb(75, 1, 1) ;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: background-color 1s, color 1s;
 }
 
-.menu-cover .menu-price .main-menu ul{
-    list-style: none;
-    display: flex;
-    row-gap: 30px;
-    flex-direction: column;
-}
-
-@media (width < 581px) {
-    .menu-cover{
-        flex-direction: column;
-        row-gap: 20px;
-        padding: 3rem 2rem;
-    }
-
-    .menu{
-        margin-top: 2rem;
-    }
+.note a:hover{
+    background-color: rgb(182, 3, 3) ;
 }
