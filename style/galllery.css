@@ -6,6 +6,11 @@
     color: gold;
 }
 
+.span{
+    background-color: rgb(77, 1, 1);
+    color: white;
+}
+
 .cake-gallery{
     margin-top: 10rem;
     justify-items: center;

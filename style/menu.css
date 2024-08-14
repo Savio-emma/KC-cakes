@@ -47,8 +47,13 @@ h1{
     border: 2px solid white;
 }
 
+.menu-cover .menu-card h3{
+    background-color: rgb(75, 1, 1);
+}
+
 .menu-cover .menu-card p {
     color: gold;
+    background-color: rgb(75, 1, 1);
 }
 
 .note{

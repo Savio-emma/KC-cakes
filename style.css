@@ -1,7 +1,19 @@
+:root{
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+.dark-theme{
+    --primary-color: black;
+    --secondary-color: white;
+}
+
 *{
     margin: 0;
     padding: 0;
     font-family: "Nunito", sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 hr{
@@ -29,11 +41,18 @@ header{
     z-index: 1;
 }
 
+header .log{
+    border-radius: 50%;
+    margin-left: 20px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid rgb(75, 1, 1);
+}
+
 header .logo{
     height: 70px;
     border-radius: 50%;
-    border: 2px solid rgb(75, 1, 1);
-    margin-left: 20px;
+    background-color: rgb(75, 1, 1) ;
 }
 
 header .header-buttons{
@@ -43,6 +62,14 @@ header .header-buttons{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(75, 1, 1);
+}
+
+header .header-buttons div, .ham-icons, .ham-icons i,
+.card-item h4, .card-item p, footer h2, footer div, footer div a,
+footer div a i, footer p{
+    background-color: rgb(75, 1, 1);
+    color: white;
 }
 
 header .header-buttons a{
@@ -50,6 +77,7 @@ header .header-buttons a{
     text-decoration: none;
     color: white;
     transition: opacity 1s;
+    background-color: rgb(75, 1, 1);
 }
 
 header .header-buttons a:hover{
@@ -86,6 +114,17 @@ header i{
     transition: color 1s ease-in;
     display: none;
     color: white;
+}
+
+.open-menu i, .close-menu i, .open-menu, .close-menu,
+#whatsapp, #whatapp i {
+    background-color: rgb(75, 1, 1);
+}
+
+#whatsapp i {
+    background-color: black;
+    color: white ;
+    border-radius: 50%;
 }
 
 .header-buttons .close-menu, .header-buttons .ham-icons i{
@@ -147,6 +186,59 @@ header .header-buttons .button-five{
         transform: none;
      }
 }
+
+
+.light-click{
+    max-width: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: rgb(75, 1, 1);
+    height: 30px;
+    padding: 5px 10px;
+    position: fixed;
+    right: 20px;
+    border-radius: 5px;
+    margin-top: 70px;
+    z-index: 3;
+    transition: background-color .5s  ease-in;
+    animation: daynight 2s infinite;
+}
+
+.light-click img{
+    background-color: rgb(75, 1, 1);
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    background-color: rgb(75, 1, 1);
+}
+
+.day-night{
+    cursor: pointer;
+    height: 30px;
+    background-color: rgb(75, 1, 1);
+}
+
+label{
+    background-color: rgb(75, 1, 1);
+}
+
+
+@keyframes daynight {
+    0%{
+        scale: 1;
+    }
+
+    50%{
+        scale: 0.9;
+    }
+
+    100%{
+        scale: 1;
+    }
+}
+
+
 
 /* ---------header section */
 
@@ -388,6 +480,10 @@ header .header-buttons .button-five{
     background-color: rgb(75, 1, 1);
     color: white;
     cursor: pointer;
+}
+
+.card-item .img {
+    border-radius: 50%;
 }
 
 .card-item .img img{
