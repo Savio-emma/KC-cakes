@@ -75,14 +75,14 @@
     display: none;
 }
 
-@media (width < 800px) {
+@media screen and (max-width: 800px) {
     .full-img img {
         width: 400px;
         height: 450px;
     }
 }
 
-@media (width < 850px) {
+@media screen and (max-width: 850px) {
     .img-gallery{
         width: 90%;
         margin: 100px auto 50px;
@@ -103,7 +103,7 @@
     }
 }
 
-@media (width < 500px) {
+@media screen and (max-width: 500px) {
     .full-img img {
         width: 300px;
         height: 450px;

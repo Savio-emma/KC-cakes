@@ -686,7 +686,7 @@ footer .copy-right p {
 
 
 /* media query */
-@media (width < 800px) {
+@media screen and (max-width: 800px) {
     .header-buttons{
         height: 100vh;
         position: fixed;
@@ -786,7 +786,7 @@ footer .copy-right p {
    }
     }
 
-@media (width < 1123px) {
+@media screen and (max-width: 1123px) {
     .hire{
         scale: .8;
         display: flex;
@@ -801,7 +801,7 @@ footer .copy-right p {
 
 }
 
-@media (width < 1031px) {
+@media screen and  (max-width:1031px) {
     .our-baker{
         padding: 0 10px;
         justify-content: space-between;
@@ -826,7 +826,7 @@ footer .copy-right p {
    }
 }
 
-@media (width < 913px) {
+@media screen and (max-width: 913px) {
     header{
         max-width: 100%;
     }
@@ -868,7 +868,7 @@ footer .copy-right p {
     }
 }
 
-@media (width < 770px) {
+@media screen and (max-width: 770px) {
    
     .tour{
         scale: .7;
@@ -879,7 +879,7 @@ footer .copy-right p {
     }
 }
 
-@media (width < 659px) {
+@media screen and  (max-width: 659px) {
     .tour{
         scale: 1;
     }
@@ -904,14 +904,14 @@ footer .copy-right p {
     }
 }
 
-@media (width < 570px) {
+@media screen and  (max-width: 570px) {
     .after-header-image{
         scale: .7;
     }
 
 }
 
-@media (width < 400px) {
+@media  screen and (max-width: 400px) {
     .hire .hire-image{
         scale: .8;
     }
